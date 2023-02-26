@@ -4,7 +4,12 @@ Mods: {
 		Items: {
 			SwordOfBasics: {
 				DisplayName: Sword Of Basics
-				Tooltip: This is a basic modded sword.
+				Tooltip: This is a basic modded sword, congrats.
+			}
+
+			GoBYEBYE: {
+				DisplayName: Go B Y E B Y E
+				Tooltip: This is a basic modded sword, congrats.
 			}
 		}
 	}
