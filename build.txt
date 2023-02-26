@@ -1,0 +1,3 @@
+displayName = A Mod
+author = Void
+version = 0.1

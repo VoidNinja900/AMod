@@ -1,0 +1,11 @@
+
+Mods: {
+	AMod: {
+		Items: {
+			SwordOfBasics: {
+				DisplayName: Sword Of Basics
+				Tooltip: This is a basic modded sword.
+			}
+		}
+	}
+}
