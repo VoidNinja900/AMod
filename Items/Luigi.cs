@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 
 namespace AMod.Items
 {
-	public class GoBYEBYE : ModItem
+	public class Luigi : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
@@ -14,14 +14,14 @@ namespace AMod.Items
 
 		public override void SetDefaults()
 		{
-			Item.damage = 100;
+			Item.damage = 300;
 			Item.DamageType = DamageClass.Melee;
-			Item.width = 70;
-			Item.height = 70;
-			Item.useTime = 5;
-			Item.useAnimation = 5;
+			Item.width = 40;
+			Item.height = 40;
+			Item.useTime = 100;
+			Item.useAnimation = 100;
 			Item.useStyle = 1;
-			Item.knockBack = 100000;
+			Item.knockBack = 6;
 			Item.value = 10000;
 			Item.rare = 2;
 			Item.UseSound = SoundID.Item1;
