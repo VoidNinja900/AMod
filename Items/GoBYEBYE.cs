@@ -9,7 +9,7 @@ namespace AMod.Items
 		public override void SetStaticDefaults()
 		{
 			// DisplayName.SetDefault("SwordOfBasics"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
-			Tooltip.SetDefault("This is a basic modded sword, congrats.");
+			Tooltip.SetDefault("Send your enemies sky high!");
 		}
 
 		public override void SetDefaults()
@@ -21,10 +21,11 @@ namespace AMod.Items
 			Item.useTime = 5;
 			Item.useAnimation = 5;
 			Item.useStyle = 1;
+			Item.mana = 0;
 			Item.knockBack = 100000;
 			Item.value = 10000;
 			Item.rare = 2;
-			Item.UseSound = SoundID.Item1;
+			Item.UseSound = SoundID.Item71;
 			Item.autoReuse = true;
 		}
 
